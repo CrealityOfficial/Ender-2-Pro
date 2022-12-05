@@ -1,0 +1,8 @@
+--cpu Cortex-M4.fp.sp -g --16 --apcs=interwork --pd "__MICROLIB SETA 1" --nowarn
+-I.\RTE\_firmware_Release
+-IC:\Users\DeskCX-1900\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+-IC:\Users\DeskCX-1900\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\DSP\Include
+-IC:\Users\DeskCX-1900\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\DSP\PrivateInclude
+-IC:\Users\DeskCX-1900\AppData\Local\Arm\Packs\HDSC\HC32F46x\1.0.2\Device\Include
+--pd "__UVISION_VERSION SETA 536" --pd "_RTE_ SETA 1" --pd "_RTE_ SETA 1"
+-o .\list\startup_hc32f460petb.o --depend .\list\startup_hc32f460petb.d "..\source\main\hdsc32core\startup_hc32f460petb.s"
