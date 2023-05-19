@@ -1,8 +1,12 @@
-固件更新说明:
-1.固件更新对应相应的文件夹,
-  用户更新:固件放到user文件夹下,更新后系统会删除相应的固件更新程序
-  工厂更新:固件放到factory文件夹下,更新后系统会保留固件更新程序
+insert the bin file into the sdcar
+Format it first
+Add "factory" folder
+Insert the bin file in the factory folder
 
-2021年10月30日
-版本号:2.2.3
-首发布版本
+If you think you brick your printer dont worry 
+here is the stock Firmware
+https://github.com/CrealityOfficial/Ender-2-Pro/tree/MCU_HDSC/workspace/bin
+
+To use Keil follow this step
+
+https://www.reddit.com/r/anycubic/comments/y2waxu/tutorial_how_to_build_anycubic_marlin_source_code/
