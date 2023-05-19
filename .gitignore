@@ -94,10 +94,12 @@ tags
 *.pch
 
 # Libraries
-
+*.a
+*.lib
 *.la
 *.lo
-
+!glib.lib
+!libglib-2.0.a
 # Shared objects (inc. Windows DLLs)
 *.dll
 *.so
